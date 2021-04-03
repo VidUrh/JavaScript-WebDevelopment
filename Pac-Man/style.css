@@ -1,0 +1,72 @@
+
+#Tockovnik{
+  width: 6%;
+  float:left;
+  margin-bottom: 0;
+}
+#Casovnik{
+  width: 10%;
+  float:left;
+  margin-bottom: 0;
+}
+a{
+  margin-top: 15px;
+  width: 13%;
+  float:left;
+  margin-bottom: 0;
+
+}
+td{
+  width: 20px;
+  height: 20px;
+  margin: 0px;
+  padding: 0px;
+  border-collapse: collapse;
+}
+table{
+  clear:both;
+  border: 1px solid black;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+td.zid {
+
+  background-image: url("images/zid.png")
+
+}
+td.sadje {
+
+  background-image: url("images/sadje.png")
+
+}
+
+td.krogec {
+
+  background-image: url("images/krogec.png")
+
+}
+td.gor {
+
+  background-image: url("images/pac_gor.png")
+
+}
+td.dol {
+
+  background-image: url("images/pac_dol.png")
+
+}
+td.levo {
+
+  background-image: url("images/pac_levo.png")
+
+}
+td.desno {
+
+  background-image: url("images/pac_desno.png")
+
+}
+td.pojeden{
+  background-image: none;
+}
