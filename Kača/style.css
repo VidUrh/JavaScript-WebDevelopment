@@ -1,0 +1,103 @@
+body {
+  background-color: #08468c;
+
+}
+
+h1{
+  text-align: center;
+  font-size:36px;
+  text-transform: uppercase;
+  font-family: cursive;
+}
+p{
+  text-align: center;
+  font-size: 20px;
+}
+td.mis {
+    background-image: url("mouse.png");
+}
+
+td.repGor{
+  background-image: url("rep.png");
+}
+
+td.repDol{
+  background-image: url("rep.png");
+  transform: rotate(180deg);
+}
+
+td.repLevo{
+  background-image: url("rep.png");
+  transform: rotate(270deg);
+}
+
+td.repDesno{
+  background-image: url("rep.png");
+  transform: rotate(90deg);
+}
+
+
+
+
+td.glavaDol{
+  background-image: url("glava.png");
+}
+td.glavaGor{
+  background-image: url("glava.png");
+  transform: rotate(180deg);
+}
+td.glavaDesno{
+  background-image: url("glava.png");
+  transform: rotate(270deg);
+}
+td.glavaLevo{
+  background-image: url("glava.png");
+  transform: rotate(90deg);
+}
+
+td.kaca{
+  background-color: #088c34;
+}
+td.prazno{
+  background-color: #8c0811;
+}
+
+
+
+table{
+  border: 2px solid black;
+  margin: auto;
+  padding: 0px;
+  border-collapse: collapse;
+}
+td {
+  padding: 0px;
+  height: 20px;
+  width: 20px;
+  background-color: #8c0811;
+
+}
+tr{
+  text-align: center;
+  background-color: #8c0811;
+}
+
+table#Score{
+  font-family: monospace;
+  background-color: #FF0066;
+  border: 3px solid black;
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px;
+  width: 500px;
+  height:20px;
+
+}
+
+td.Score{
+  border: 1px solid black;
+  width: 200px;
+  height:20px;
+  text-align: center;
+  background-color: #6CBC41;
+}
