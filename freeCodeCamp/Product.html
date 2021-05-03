@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Product Landing page</title>
+  </head>
+  <body>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <style media="screen">
+      html{
+        background-image: linear-gradient(135deg, #00E5FF,#00FF1A);
+      }
+      main{
+        padding-top: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      #header-img{
+        margin-right: 20px;
+        border-radius: 20%;
+        padding: 10px;
+        width: 2em;
+        height: auto;
+        align-items:flex-start;
+
+      }
+
+
+
+
+      form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      ul{
+        font-size: 18px;
+        font-family: sans-serif;
+
+      }
+      li{
+        margin: 20px;
+      }
+      section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        border-radius: 10px;
+        margin:10px 0 10px 0;
+        padding: 20px;
+      }
+      div.plan1{
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 20em;
+        width: 20em;
+        border: solid 3px  rgba(255, 153, 0,.9);
+        box-shadow: 2px 2px black;
+        background-color: #f1f1f1;
+
+      }
+      header{
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        align-items: center;
+        justify-content: center;
+        top:0;
+        font-size: 36px;
+        background-color: #B15CEA;
+        box-shadow: 2px 2px 2px #B15CEA;
+        width: 100%
+      }
+      h3{
+        text-align: center;
+        font-size: 30px;
+        font-family: fantasy;
+      }
+      .nav-link{
+        justify-content: flex-end;
+        margin-left: 100px;
+        font-size: 24px;
+      }
+      @media (max-width:300px) {
+        iframe{
+          height: auto;
+        }
+      }
+
+    </style>
+
+    <header id ="header"><img id="header-img" src="https://i.pinimg.com/originals/43/29/cc/4329cce365f58dfd103ec0cd301d9775.png" alt="Logo">  Handcrafted, home-made masterpieces
+      <nav id="nav-bar">
+        <a class="nav-link" href="#features">Features</a><a class="nav-link" href="#instructions">How it Works</a><a class="nav-link" href="#pricing">Pricing</a>
+      </nav>
+    </header>
+
+
+    <main>
+
+      <section id="instructions">
+        <iframe id="video" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" width="600" height="335" frameborder="0" allowfullscreen></iframe>
+      </section>
+
+      <section id="pricing">
+        <div class="plan1">
+          <h3>10€</h3>
+          <ul>
+            <li>We don't sell trombones</li>
+            <li>We will still take your money though</li>
+            <li>Sorry, we ran out of this order. Try the more expensive ones...</li>
+          </ul>
+        </div>
+        <div class="plan1">
+          <h3>100€</h3>
+          <ul>
+            <li>We are trustworthy company, will steal only what you don't need</li>
+            <li>We literally don't care</li>
+            <li>Our factories are really top notch. Only break around 75% of your orders</li>
+          </ul>
+        </div>
+        <div class="plan1">
+          <h3>1000€</h3>
+          <ul>
+            <li>Free delivery of the online instructions</li>
+            <li>Not stealing from you during instalation</li>
+            <li>Will try not to break it during processing of your order</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="features">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <label for="email">Subscribe to get to know less about nothing</label>
+          <input name="email" id="email" type="email" placeholder="Enter your email address" required/>
+          <input type="submit" id="submit" value="Get Started"/>
+        </form>
+
+      </section>
+      <h4>THIS PAGE IS PURELY FOR COMEDIC AND EDUCATIONAL PURPOSES!</h4>
+    </main>
+
+
+
+  </body>
+</html>
