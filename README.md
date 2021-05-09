@@ -4,4 +4,4 @@
     - Survey form
     - Product landing page
     - Technical documentation
-    - *Personal pertfolio (the last project of certificate) has it own repository and is my personal page -https://vidurh.github.io/
+    - *Personal pertfolio (the last project of certificate) has it own repository and is my personal page -https://vidurh.github.io/*
